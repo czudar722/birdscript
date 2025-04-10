@@ -10,7 +10,7 @@ service = Service("/usr/local/bin/chromedriver")
 driver = webdriver.Chrome(service=service, options=options)
 
 
-driver.get("https://1brd.ly/BX8Wk?st=h8ceb7d1fgch")
+driver.get("<URL>")
 print(driver.title)
 sleep(5)
 driver.quit()
